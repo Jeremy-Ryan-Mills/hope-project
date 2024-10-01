@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "LM2940x"
-			(at 0 8.382 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,8 +51,8 @@
 		)
 		(symbol "LM2940x_0_1"
 			(rectangle
-				(start -5.08 6.35)
-				(end 5.08 -6.35)
+				(start -6.35 3.81)
+				(end 6.35 -5.08)
 				(stroke
 					(width 0)
 					(type default)
@@ -75,7 +75,7 @@
 		)
 		(symbol "LM2940x_1_1"
 			(pin power_in line
-				(at 7.62 -3.81 180)
+				(at -8.89 1.27 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -93,7 +93,7 @@
 				)
 			)
 			(pin input line
-				(at 7.62 0 180)
+				(at 0 -7.62 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -111,7 +111,7 @@
 				)
 			)
 			(pin power_out line
-				(at 7.62 3.81 180)
+				(at 8.89 1.27 180)
 				(length 2.54)
 				(name "VOUT"
 					(effects
