@@ -578,6 +578,10 @@
     [
       "37766153-7921-4304-952c-8cbed935bbde",
       "Root"
+    ],
+    [
+      "6e4dafa4-526e-49fd-be82-6ba98e7e167c",
+      "BLDC Motor Driver"
     ]
   ],
   "text_variables": {}
