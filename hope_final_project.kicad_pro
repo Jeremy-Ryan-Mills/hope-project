@@ -582,6 +582,14 @@
     [
       "6e4dafa4-526e-49fd-be82-6ba98e7e167c",
       "BLDC Motor Driver"
+    ],
+    [
+      "002c9aad-894f-4a97-a943-216a1785fff6",
+      "Audio Amp"
+    ],
+    [
+      "85896c8b-3b5e-44e0-8a6e-7cbb4baf21cc",
+      "Voltage Regulators"
     ]
   ],
   "text_variables": {}
