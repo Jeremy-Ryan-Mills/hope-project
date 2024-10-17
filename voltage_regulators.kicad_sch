@@ -2845,7 +2845,7 @@
 			(uuid "a14182ec-7697-49a2-9b49-eba85ec95bc6")
 		)
 		(instances
-			(project ""
+			(project "hope_final_project"
 				(path "/37766153-7921-4304-952c-8cbed935bbde/85896c8b-3b5e-44e0-8a6e-7cbb4baf21cc"
 					(reference "C5")
 					(unit 1)
@@ -2979,7 +2979,7 @@
 			(uuid "7d331bae-846d-4e56-8f1e-87ff0085696a")
 		)
 		(instances
-			(project ""
+			(project "hope_final_project"
 				(path "/37766153-7921-4304-952c-8cbed935bbde/85896c8b-3b5e-44e0-8a6e-7cbb4baf21cc"
 					(reference "L1")
 					(unit 1)
@@ -3264,7 +3264,7 @@
 			(uuid "d331fded-da1e-45fd-8002-7855a6c5b0fc")
 		)
 		(instances
-			(project ""
+			(project "hope_final_project"
 				(path "/37766153-7921-4304-952c-8cbed935bbde/85896c8b-3b5e-44e0-8a6e-7cbb4baf21cc"
 					(reference "U3")
 					(unit 1)
@@ -3475,7 +3475,7 @@
 			(uuid "50d02007-d8ad-4949-a695-3dff7fbe6bb4")
 		)
 		(instances
-			(project ""
+			(project "hope_final_project"
 				(path "/37766153-7921-4304-952c-8cbed935bbde/85896c8b-3b5e-44e0-8a6e-7cbb4baf21cc"
 					(reference "D2")
 					(unit 1)
@@ -3549,7 +3549,7 @@
 			(uuid "8524ed38-dec7-4992-92d2-14857b60ab5c")
 		)
 		(instances
-			(project ""
+			(project "hope_final_project"
 				(path "/37766153-7921-4304-952c-8cbed935bbde/85896c8b-3b5e-44e0-8a6e-7cbb4baf21cc"
 					(reference "T1")
 					(unit 1)
