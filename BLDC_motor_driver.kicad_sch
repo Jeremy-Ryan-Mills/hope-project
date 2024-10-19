@@ -140,163 +140,6 @@
 				)
 			)
 		)
-		(symbol "Device:L"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -1449,16 +1292,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 34.29) (xy 153.67 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32d6f85b-823f-4f78-8a97-ed3eb5f2f2c2")
-	)
-	(wire
-		(pts
 			(xy 91.44 194.31) (xy 95.25 194.31)
 		)
 		(stroke
@@ -1629,7 +1462,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 34.29) (xy 146.05 34.29)
+			(xy 140.97 34.29) (xy 156.21 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1639,7 +1472,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 153.67) (xy 146.05 153.67)
+			(xy 140.97 153.67) (xy 156.21 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1689,16 +1522,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 153.67) (xy 156.21 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57cfe45b-7889-4574-a894-fa19366c3c8a")
-	)
-	(wire
-		(pts
 			(xy 67.31 162.56) (xy 78.74 162.56)
 		)
 		(stroke
@@ -1739,7 +1562,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 95.25) (xy 146.05 95.25)
+			(xy 140.97 95.25) (xy 156.21 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2359,16 +2182,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 95.25) (xy 156.21 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a96aef29-7c5c-4cdb-986b-efd4c504baca")
-	)
-	(wire
-		(pts
 			(xy 106.68 35.56) (xy 106.68 34.29)
 		)
 		(stroke
@@ -2903,6 +2716,16 @@
 		)
 		(uuid "32b1dba5-ab32-4126-b83e-3fb6d854e771")
 	)
+	(text "Maybe add Inductor, dependent on motor\n"
+		(exclude_from_sim no)
+		(at 151.384 90.932 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "74dd92c3-f97a-434c-ad7a-2ff5d7046755")
+	)
 	(text "NOTE:\nMaking a guess on R10 PGND to GND resistor.\nRL_ON VOUT-PGND RON VIN= 12V, LIN= 5V, PGND= 0, VOUT= 1A 6 mΩ\n(page 5)"
 		(exclude_from_sim no)
 		(at 178.308 38.862 0)
@@ -2925,6 +2748,16 @@
 		)
 		(uuid "9a7a74d7-9ede-436f-b1be-9c36723cf65d")
 	)
+	(text "Maybe add Inductor, dependent on motor\n"
+		(exclude_from_sim no)
+		(at 148.844 30.226 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9b96341f-15fc-4a40-9cdb-35972cb994d7")
+	)
 	(text "NOTE: Assuming no difference between AGND V. PGND "
 		(exclude_from_sim no)
 		(at 178.562 48.006 0)
@@ -2946,6 +2779,16 @@
 			(justify left)
 		)
 		(uuid "c070241b-a427-4d9f-9c32-b556d4ea5312")
+	)
+	(text "Maybe add Inductor, dependent on motor\n"
+		(exclude_from_sim no)
+		(at 149.352 149.606 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c2877982-64e8-48fd-b7b3-4f5381e1b746")
 	)
 	(text "AOZ9510QI"
 		(exclude_from_sim no)
@@ -3450,74 +3293,6 @@
 			(project "hope_final_project"
 				(path "/37766153-7921-4304-952c-8cbed935bbde/6e4dafa4-526e-49fd-be82-6ba98e7e167c"
 					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 149.86 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19fabfbe-2d5f-41a0-861d-e376796c2d49")
-		(property "Reference" "L3"
-			(at 149.86 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L"
-			(at 149.86 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 149.86 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e59124a-5fd4-4bb2-84cb-8b5dbb5e1bf0")
-		)
-		(pin "2"
-			(uuid "8bdf042b-ee96-42d1-a204-22627ef9ca59")
-		)
-		(instances
-			(project "hope_final_project"
-				(path "/37766153-7921-4304-952c-8cbed935bbde/6e4dafa4-526e-49fd-be82-6ba98e7e167c"
-					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -4796,74 +4571,6 @@
 			(project "hope_final_project"
 				(path "/37766153-7921-4304-952c-8cbed935bbde/6e4dafa4-526e-49fd-be82-6ba98e7e167c"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 149.86 34.29 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82fe8f21-f84b-4fa3-a341-81ed7a0dbec6")
-		(property "Reference" "L2"
-			(at 149.86 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L"
-			(at 149.86 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 149.86 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d7eb2ba2-8e00-46bc-978b-f110d3636a20")
-		)
-		(pin "2"
-			(uuid "3ade0238-192a-4f66-b1bc-4cd92994c7d6")
-		)
-		(instances
-			(project "hope_final_project"
-				(path "/37766153-7921-4304-952c-8cbed935bbde/6e4dafa4-526e-49fd-be82-6ba98e7e167c"
-					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -6284,74 +5991,6 @@
 			(project "hope_final_project"
 				(path "/37766153-7921-4304-952c-8cbed935bbde/6e4dafa4-526e-49fd-be82-6ba98e7e167c"
 					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 149.86 153.67 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed97aaa8-19e8-4ddf-aa2b-4185eeea298a")
-		(property "Reference" "L4"
-			(at 149.86 148.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L"
-			(at 149.86 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 149.86 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "40ce202d-6b91-460d-a779-5840351b460c")
-		)
-		(pin "2"
-			(uuid "eef7dd47-e879-4f89-971d-2d9e1d205e9b")
-		)
-		(instances
-			(project "hope_final_project"
-				(path "/37766153-7921-4304-952c-8cbed935bbde/6e4dafa4-526e-49fd-be82-6ba98e7e167c"
-					(reference "L4")
 					(unit 1)
 				)
 			)
