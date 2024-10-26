@@ -3790,6 +3790,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "power:VAC"
 			(power)
 			(pin_numbers hide)
@@ -3965,6 +4061,12 @@
 		(uuid "8b44ac15-047a-4ce5-a565-694256047e0f")
 	)
 	(junction
+		(at 66.04 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ca4cdc4-09e7-4a06-a026-cce6ee96a758")
+	)
+	(junction
 		(at 259.08 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3975,6 +4077,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab3a9001-edff-464c-a7a3-d46e09936847")
+	)
+	(junction
+		(at 152.4 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abf5f4f0-9ad9-4a90-802e-f58ef383d9dd")
 	)
 	(junction
 		(at 210.82 69.85)
@@ -3989,16 +4097,34 @@
 		(uuid "bead58f9-3cf1-4f99-8f6e-e78cefdf6179")
 	)
 	(junction
+		(at 24.13 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c96d31a1-2b6e-48cd-b913-72fee9ddefb0")
+	)
+	(junction
 		(at 157.48 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d68e01ca-75da-4ea1-ba88-55b499ad03d1")
 	)
 	(junction
+		(at 67.31 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df3c9bf3-cb0d-4f26-b3d5-b145b5b16fa6")
+	)
+	(junction
 		(at 86.36 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eba23e7d-9be1-4287-ad79-5d10dc9e2edf")
+	)
+	(junction
+		(at 66.04 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed6da9c6-2c61-41b3-93d2-acdc2ee71afa")
 	)
 	(no_connect
 		(at 203.2 80.01)
@@ -4129,6 +4255,10 @@
 		(uuid "c183af11-7168-4026-9249-b9ce35209a4d")
 	)
 	(no_connect
+		(at 111.76 62.23)
+		(uuid "d14c221e-974c-4d1a-a240-47a5af322dd0")
+	)
+	(no_connect
 		(at 203.2 82.55)
 		(uuid "d61e0eeb-d5d9-4222-b1e7-6ba7c2bbc255")
 	)
@@ -4156,6 +4286,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 36.83) (xy 83.82 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00d19df3-2dad-4005-96b9-c364894b597b")
+	)
+	(wire
+		(pts
 			(xy 66.04 90.17) (xy 68.58 90.17)
 		)
 		(stroke
@@ -4176,7 +4316,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 80.01) (xy 66.04 80.01)
+			(xy 62.23 80.01) (xy 67.31 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4206,7 +4346,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 38.1) (xy 73.66 38.1)
+			(xy 66.04 39.37) (xy 73.66 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4326,6 +4466,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 71.12) (xy 67.31 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20d76c23-f546-426d-9284-5397e8857279")
+	)
+	(wire
+		(pts
 			(xy 39.37 118.11) (xy 39.37 120.65)
 		)
 		(stroke
@@ -4333,6 +4483,16 @@
 			(type default)
 		)
 		(uuid "220f3088-4ed2-4d72-9cd3-078d2be33722")
+	)
+	(wire
+		(pts
+			(xy 83.82 29.21) (xy 83.82 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26185465-48ba-406b-b9ea-2509735cdb8e")
 	)
 	(wire
 		(pts
@@ -4466,16 +4626,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 29.21) (xy 78.74 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41bfe349-0f67-4b24-ad6f-250fbb22d4aa")
-	)
-	(wire
-		(pts
 			(xy 220.98 81.28) (xy 220.98 69.85)
 		)
 		(stroke
@@ -4546,6 +4696,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 138.43) (xy 24.13 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6456780f-c723-424a-a4dc-db841a36beb1")
+	)
+	(wire
+		(pts
 			(xy 205.74 105.41) (xy 203.2 105.41)
 		)
 		(stroke
@@ -4563,6 +4723,16 @@
 			(type default)
 		)
 		(uuid "668cd131-131d-4280-9a56-c210f6a16a83")
+	)
+	(wire
+		(pts
+			(xy 66.04 36.83) (xy 66.04 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66ee2ccb-b844-4145-b368-739baa2fde8b")
 	)
 	(wire
 		(pts
@@ -4616,6 +4786,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 43.18) (xy 157.48 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ad86a2c-88e9-464e-9d1f-67f3c352bdca")
+	)
+	(wire
+		(pts
 			(xy 33.02 39.37) (xy 38.1 39.37)
 		)
 		(stroke
@@ -4666,13 +4846,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 78.74) (xy 66.04 80.01)
+			(xy 146.05 41.91) (xy 146.05 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ce0b43e-603e-4290-b4ce-47e38ffb9297")
+		(uuid "8d176fa3-ddc0-42c4-acb1-9f2a1121267a")
 	)
 	(wire
 		(pts
@@ -4716,16 +4896,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 43.18) (xy 157.48 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93eb0285-214c-4980-99f0-4e694cf47047")
-	)
-	(wire
-		(pts
 			(xy 218.44 81.28) (xy 220.98 81.28)
 		)
 		(stroke
@@ -4743,16 +4913,6 @@
 			(type default)
 		)
 		(uuid "9a58a4af-a24a-4e07-9341-32a43a49b426")
-	)
-	(wire
-		(pts
-			(xy 73.66 38.1) (xy 73.66 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c990eb7-5f1a-4d9a-b8ed-6f7ff43a59fd")
 	)
 	(wire
 		(pts
@@ -5076,13 +5236,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 34.29) (xy 78.74 34.29)
+			(xy 24.13 139.7) (xy 24.13 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eae3be45-8e43-4842-829d-87bcb0c9a157")
+		(uuid "f1374edf-1d5d-46c0-961d-126f47b58d5c")
 	)
 	(wire
 		(pts
@@ -5096,6 +5256,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 73.66) (xy 67.31 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f18a2432-dff7-4e9a-aa63-ad8249f0df7d")
+	)
+	(wire
+		(pts
 			(xy 157.48 43.18) (xy 157.48 49.53)
 		)
 		(stroke
@@ -5103,6 +5273,16 @@
 			(type default)
 		)
 		(uuid "f28873d5-0c86-46e1-a800-d2916d7a3910")
+	)
+	(wire
+		(pts
+			(xy 66.04 34.29) (xy 78.74 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f291e575-8f18-4263-aef3-5987dbbf26a0")
 	)
 	(wire
 		(pts
@@ -5123,6 +5303,26 @@
 			(type default)
 		)
 		(uuid "f3740237-8c3c-4c82-b5e7-b528a59d09ea")
+	)
+	(wire
+		(pts
+			(xy 78.74 29.21) (xy 78.74 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3d89d89-298d-440d-a44f-d0deaa1c2739")
+	)
+	(wire
+		(pts
+			(xy 146.05 43.18) (xy 152.4 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8bfcb7b-c904-47e9-bd20-e8050fd392d2")
 	)
 	(wire
 		(pts
@@ -5705,7 +5905,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
 			(at 215.9 64.77 0)
 			(effects
 				(font
@@ -5814,6 +6014,73 @@
 			(project "hope_final_project"
 				(path "/37766153-7921-4304-952c-8cbed935bbde"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 24.13 139.7 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2574cd1e-e731-4391-a9dc-30a4c68efeac")
+		(property "Reference" "#FLG01"
+			(at 26.035 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 27.94 139.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 24.13 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c75526c1-9b29-4418-acea-fe80394ad7f7")
+		)
+		(instances
+			(project ""
+				(path "/37766153-7921-4304-952c-8cbed935bbde"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -6074,7 +6341,7 @@
 	)
 	(symbol
 		(lib_id "power:VAC")
-		(at 24.13 140.97 0)
+		(at 24.13 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6083,7 +6350,7 @@
 		(fields_autoplaced yes)
 		(uuid "40f77e6a-82e2-4a87-80fc-d2a275a644c5")
 		(property "Reference" "#PWR012"
-			(at 24.13 143.51 0)
+			(at 24.13 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6092,7 +6359,7 @@
 			)
 		)
 		(property "Value" "V_stylus"
-			(at 24.13 133.35 0)
+			(at 24.13 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6100,7 +6367,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 140.97 0)
+			(at 24.13 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6109,7 +6376,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 140.97 0)
+			(at 24.13 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6118,7 +6385,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VAC\""
-			(at 24.13 140.97 0)
+			(at 24.13 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6166,7 +6433,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 157.48 40.64 0)
 			(effects
 				(font
@@ -6234,7 +6501,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
 			(at 91.44 49.53 0)
 			(effects
 				(font
@@ -6308,7 +6575,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_Footprints:PJ_002B"
 			(at 26.67 37.846 0)
 			(effects
 				(font
@@ -6543,6 +6810,72 @@
 			(project "hope_final_project"
 				(path "/37766153-7921-4304-952c-8cbed935bbde"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+15V")
+		(at 78.74 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66279886-b1d2-4c9e-987f-2257482223ff")
+		(property "Reference" "#PWR08"
+			(at 78.74 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 76.962 25.146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"5V\""
+			(at 78.74 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "557b0d62-65d6-4fab-8fbf-b052df081c99")
+		)
+		(instances
+			(project "hope_final_project"
+				(path "/37766153-7921-4304-952c-8cbed935bbde"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6870,7 +7203,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 91.44 63.5 0)
 			(effects
 				(font
@@ -6938,7 +7271,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 71.12 81.28 0)
 			(effects
 				(font
@@ -7073,7 +7406,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 24.13 143.51 0)
 			(effects
 				(font
@@ -7234,6 +7567,139 @@
 			(project "hope_final_project"
 				(path "/37766153-7921-4304-952c-8cbed935bbde"
 					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 67.31 73.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7368a49-0b35-4453-b34d-81a0b86900f7")
+		(property "Reference" "#FLG04"
+			(at 69.215 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 71.12 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 67.31 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "765f3f91-3f9b-410a-b491-e575b28f15c8")
+		)
+		(instances
+			(project "hope_final_project"
+				(path "/37766153-7921-4304-952c-8cbed935bbde"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 152.4 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8b9ff8e-c7ef-4ad6-9fdd-ce1c46efebc6")
+		(property "Reference" "#FLG03"
+			(at 152.4 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 152.4 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 152.4 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d44d185-a6f5-47b5-920d-794df48e3d5b")
+		)
+		(instances
+			(project "hope_final_project"
+				(path "/37766153-7921-4304-952c-8cbed935bbde"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -7531,7 +7997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 99.822 50.8 90)
 			(effects
 				(font
@@ -7641,7 +8107,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 66.04 78.74 0)
+		(at 67.31 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7650,7 +8116,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3a91473-246e-4d5a-b03e-db1ea74ff8e3")
 		(property "Reference" "#PWR046"
-			(at 66.04 82.55 0)
+			(at 67.31 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7659,7 +8125,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 66.04 73.66 0)
+			(at 67.31 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7667,7 +8133,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 78.74 0)
+			(at 67.31 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7676,7 +8142,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 78.74 0)
+			(at 67.31 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7685,7 +8151,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 66.04 78.74 0)
+			(at 67.31 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7731,7 +8197,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom_Footprints:AMPHENOL_10118193-0001LF"
 			(at 50.8 95.25 0)
 			(effects
 				(font
@@ -7846,7 +8312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 173.99 40.64 0)
 			(effects
 				(font
@@ -8046,7 +8512,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 71.12 90.17 0)
 			(effects
 				(font
@@ -8156,7 +8622,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 146.05 43.18 0)
+		(at 146.05 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8165,7 +8631,7 @@
 		(fields_autoplaced yes)
 		(uuid "f433bf14-2be7-406e-8578-71fb59f02106")
 		(property "Reference" "#PWR022"
-			(at 146.05 46.99 0)
+			(at 146.05 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8174,7 +8640,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 146.05 38.1 0)
+			(at 146.05 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8182,7 +8648,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 43.18 0)
+			(at 146.05 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8191,7 +8657,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 43.18 0)
+			(at 146.05 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8200,7 +8666,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 146.05 43.18 0)
+			(at 146.05 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8246,7 +8712,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 215.9 81.28 0)
 			(effects
 				(font
@@ -8290,7 +8756,7 @@
 	)
 	(symbol
 		(lib_id "power:+15V")
-		(at 78.74 29.21 0)
+		(at 83.82 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8298,7 +8764,7 @@
 		(dnp no)
 		(uuid "f95530e1-cfd8-46b4-b8d2-f0e3bb42e7a4")
 		(property "Reference" "#PWR04"
-			(at 78.74 33.02 0)
+			(at 83.82 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8307,7 +8773,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 76.962 25.146 0)
+			(at 82.042 25.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8316,7 +8782,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 29.21 0)
+			(at 83.82 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8325,7 +8791,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 29.21 0)
+			(at 83.82 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8333,8 +8799,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 78.74 29.21 0)
+		(property "Description" "Power symbol creates a global label with name \"3.3V\""
+			(at 83.82 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8621,7 +9087,7 @@
 			(uuid "583fdda9-5446-445f-a777-bcf5d5d7351f")
 		)
 		(pin "V_-15" output
-			(at 66.04 38.1 0)
+			(at 66.04 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8641,7 +9107,7 @@
 			(uuid "82ee65f2-84a7-4886-a6ec-45203a07f8ba")
 		)
 		(pin "V_3.3" output
-			(at 66.04 34.29 0)
+			(at 66.04 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8649,6 +9115,16 @@
 				(justify right)
 			)
 			(uuid "6c037e72-ef64-45c1-ad7c-84666721571d")
+		)
+		(pin "V_5" output
+			(at 66.04 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7d461cad-f178-40d5-a6e1-8fbe3f0cb4c7")
 		)
 		(instances
 			(project "hope_final_project"
