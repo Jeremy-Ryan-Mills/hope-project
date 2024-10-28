@@ -854,15 +854,6 @@
 				)
 			)
 			(property "Description" "IC AMP AUDIO PWR 30W AB TO220-5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Digi-Key_PN" "LM1875T/NOPB-ND"
 				(at 5.08 10.16 0)
 				(effects
 					(font
