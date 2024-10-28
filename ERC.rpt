@@ -1,0 +1,131 @@
+ERC report (2024-10-28T15:42:46-0700, Encoding UTF8)
+
+***** Sheet /
+
+***** Sheet /BLDC Motor Driver/
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error (excluded)
+    @(4000.00 mils, 7450.00 mils): Symbol U9 Pin 10 [VOUT, Power output, Line]
+    @(4150.00 mils, 7450.00 mils): Symbol U9 Pin 11 [VOUT, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error (excluded)
+    @(4000.00 mils, 7450.00 mils): Symbol U9 Pin 10 [VOUT, Power output, Line]
+    @(4550.00 mils, 6550.00 mils): Symbol U9 Pin 16 [VOUT, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error (excluded)
+    @(4000.00 mils, 7450.00 mils): Symbol U9 Pin 10 [VOUT, Power output, Line]
+    @(4550.00 mils, 6400.00 mils): Symbol U9 Pin 17 [VOUT, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error (excluded)
+    @(4150.00 mils, 7450.00 mils): Symbol U9 Pin 11 [VOUT, Power output, Line]
+    @(4550.00 mils, 6550.00 mils): Symbol U9 Pin 16 [VOUT, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error (excluded)
+    @(4150.00 mils, 7450.00 mils): Symbol U9 Pin 11 [VOUT, Power output, Line]
+    @(4550.00 mils, 6400.00 mils): Symbol U9 Pin 17 [VOUT, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error (excluded)
+    @(4200.00 mils, 6100.00 mils): Symbol U9 Pin 18 [VOUT, Power output, Line]
+    @(4000.00 mils, 7450.00 mils): Symbol U9 Pin 10 [VOUT, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error (excluded)
+    @(4200.00 mils, 6100.00 mils): Symbol U9 Pin 18 [VOUT, Power output, Line]
+    @(4150.00 mils, 7450.00 mils): Symbol U9 Pin 11 [VOUT, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error (excluded)
+    @(4200.00 mils, 6100.00 mils): Symbol U9 Pin 18 [VOUT, Power output, Line]
+    @(4550.00 mils, 6550.00 mils): Symbol U9 Pin 16 [VOUT, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error (excluded)
+    @(4200.00 mils, 6100.00 mils): Symbol U9 Pin 18 [VOUT, Power output, Line]
+    @(4550.00 mils, 6400.00 mils): Symbol U9 Pin 17 [VOUT, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error (excluded)
+    @(4150.00 mils, 5150.00 mils): Symbol U8 Pin 11 [VOUT, Power output, Line]
+    @(4550.00 mils, 4250.00 mils): Symbol U8 Pin 16 [VOUT, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error (excluded)
+    @(4150.00 mils, 5150.00 mils): Symbol U8 Pin 11 [VOUT, Power output, Line]
+    @(4550.00 mils, 4100.00 mils): Symbol U8 Pin 17 [VOUT, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error (excluded)
+    @(4000.00 mils, 5150.00 mils): Symbol U8 Pin 10 [VOUT, Power output, Line]
+    @(4550.00 mils, 4100.00 mils): Symbol U8 Pin 17 [VOUT, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error (excluded)
+    @(4150.00 mils, 5150.00 mils): Symbol U8 Pin 11 [VOUT, Power output, Line]
+    @(4200.00 mils, 3800.00 mils): Symbol U8 Pin 18 [VOUT, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error (excluded)
+    @(4150.00 mils, 5150.00 mils): Symbol U8 Pin 11 [VOUT, Power output, Line]
+    @(4000.00 mils, 5150.00 mils): Symbol U8 Pin 10 [VOUT, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error (excluded)
+    @(4200.00 mils, 3800.00 mils): Symbol U8 Pin 18 [VOUT, Power output, Line]
+    @(4000.00 mils, 5150.00 mils): Symbol U8 Pin 10 [VOUT, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error (excluded)
+    @(4200.00 mils, 3800.00 mils): Symbol U8 Pin 18 [VOUT, Power output, Line]
+    @(4550.00 mils, 4100.00 mils): Symbol U8 Pin 17 [VOUT, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error (excluded)
+    @(4550.00 mils, 6550.00 mils): Symbol U9 Pin 16 [VOUT, Power output, Line]
+    @(4550.00 mils, 6400.00 mils): Symbol U9 Pin 17 [VOUT, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error (excluded)
+    @(4550.00 mils, 4250.00 mils): Symbol U8 Pin 16 [VOUT, Power output, Line]
+    @(4200.00 mils, 3800.00 mils): Symbol U8 Pin 18 [VOUT, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error (excluded)
+    @(4550.00 mils, 4250.00 mils): Symbol U8 Pin 16 [VOUT, Power output, Line]
+    @(4000.00 mils, 5150.00 mils): Symbol U8 Pin 10 [VOUT, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error (excluded)
+    @(4550.00 mils, 4250.00 mils): Symbol U8 Pin 16 [VOUT, Power output, Line]
+    @(4550.00 mils, 4100.00 mils): Symbol U8 Pin 17 [VOUT, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error (excluded)
+    @(4200.00 mils, 1400.00 mils): Symbol U7 Pin 18 [VOUT, Power output, Line]
+    @(4550.00 mils, 1700.00 mils): Symbol U7 Pin 17 [VOUT, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error (excluded)
+    @(4200.00 mils, 1400.00 mils): Symbol U7 Pin 18 [VOUT, Power output, Line]
+    @(4150.00 mils, 2750.00 mils): Symbol U7 Pin 11 [VOUT, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error (excluded)
+    @(4200.00 mils, 1400.00 mils): Symbol U7 Pin 18 [VOUT, Power output, Line]
+    @(4000.00 mils, 2750.00 mils): Symbol U7 Pin 10 [VOUT, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error (excluded)
+    @(4150.00 mils, 2750.00 mils): Symbol U7 Pin 11 [VOUT, Power output, Line]
+    @(4000.00 mils, 2750.00 mils): Symbol U7 Pin 10 [VOUT, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error (excluded)
+    @(4550.00 mils, 1850.00 mils): Symbol U7 Pin 16 [VOUT, Power output, Line]
+    @(4200.00 mils, 1400.00 mils): Symbol U7 Pin 18 [VOUT, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error (excluded)
+    @(4550.00 mils, 1850.00 mils): Symbol U7 Pin 16 [VOUT, Power output, Line]
+    @(4550.00 mils, 1700.00 mils): Symbol U7 Pin 17 [VOUT, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error (excluded)
+    @(4550.00 mils, 1850.00 mils): Symbol U7 Pin 16 [VOUT, Power output, Line]
+    @(4150.00 mils, 2750.00 mils): Symbol U7 Pin 11 [VOUT, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error (excluded)
+    @(4550.00 mils, 1850.00 mils): Symbol U7 Pin 16 [VOUT, Power output, Line]
+    @(4000.00 mils, 2750.00 mils): Symbol U7 Pin 10 [VOUT, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error (excluded)
+    @(4550.00 mils, 1700.00 mils): Symbol U7 Pin 17 [VOUT, Power output, Line]
+    @(4150.00 mils, 2750.00 mils): Symbol U7 Pin 11 [VOUT, Power output, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error (excluded)
+    @(4550.00 mils, 1700.00 mils): Symbol U7 Pin 17 [VOUT, Power output, Line]
+    @(4000.00 mils, 2750.00 mils): Symbol U7 Pin 10 [VOUT, Power output, Line]
+
+***** Sheet /Audio Amp/
+
+***** Sheet /Voltage Regulators/
+
+ ** ERC messages: 30  Errors 30  Warnings 0
