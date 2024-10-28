@@ -3245,7 +3245,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 223.52 63.5 0)
 			(effects
 				(font
@@ -3880,7 +3880,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 212.09 63.5 0)
 			(effects
 				(font
@@ -4135,7 +4135,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "edc08fa5-28e7-4e3b-a871-b24f4c357bdc")
 		(property "Reference" "U3"
 			(at 73.66 115.57 0)
