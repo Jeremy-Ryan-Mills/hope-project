@@ -1,4 +1,4 @@
-24646495419305352
+24648225746039136
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -54697,6 +54697,13 @@ AMPHENOL_10118193-0001LF
 0
 11
 11
+Custom_Footprints
+CONN_12401598E4-2A_AMP
+
+12401598E4-2A 
+0
+28
+28
 Custom_Footprints
 ESP32-S2-SOLO-2U_EXP
 

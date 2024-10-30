@@ -3403,7 +3403,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4ohms"
+		(property "Value" "AST-03208MR-R"
 			(at 217.17 87.6299 0)
 			(effects
 				(font

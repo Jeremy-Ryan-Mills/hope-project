@@ -8289,7 +8289,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:AMPHENOL_10118193-0001LF"
+		(property "Footprint" "Custom_Footprints:CONN_12401598E4-2A_AMP"
 			(at 50.8 95.25 0)
 			(effects
 				(font
