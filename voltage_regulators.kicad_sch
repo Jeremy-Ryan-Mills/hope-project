@@ -3426,7 +3426,7 @@
 			(uuid "d487b742-ccaa-4558-9989-7878511e826c")
 		)
 		(instances
-			(project ""
+			(project "hope_final_project"
 				(path "/37766153-7921-4304-952c-8cbed935bbde/85896c8b-3b5e-44e0-8a6e-7cbb4baf21cc"
 					(reference "D2")
 					(unit 1)
