@@ -7529,7 +7529,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Custom_Footprints:TL3301_A_G_EWI"
 			(at 223.52 64.77 0)
 			(effects
 				(font
@@ -8196,7 +8196,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Custom_Footprints:TL3301_A_G_EWI"
 			(at 270.51 237.49 0)
 			(effects
 				(font
@@ -8270,7 +8270,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Custom_Footprints:TL3301_A_G_EWI"
 			(at 91.44 49.53 0)
 			(effects
 				(font
@@ -8948,7 +8948,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Custom_Footprints:TL3301_A_G_EWI"
 			(at 91.44 231.14 0)
 			(effects
 				(font
@@ -11327,22 +11327,22 @@
 			)
 		)
 		(pin "5"
-			(uuid "9fd1ea1a-748a-4e5f-9125-ffa5a7ed33bb")
+			(uuid "9fd1ea1a-748a-4e5f-9125-ffa5a7ed33bc")
 		)
 		(pin "2"
-			(uuid "c93a56f1-04f1-4a71-b930-4b2ce4a7205e")
+			(uuid "c93a56f1-04f1-4a71-b930-4b2ce4a7205f")
 		)
 		(pin "6"
-			(uuid "ee3e8db7-1bca-40be-b4d0-984fca6fb384")
+			(uuid "ee3e8db7-1bca-40be-b4d0-984fca6fb385")
 		)
 		(pin "1"
-			(uuid "44616f16-0028-4fe8-81ee-4a1e3aee8ec0")
+			(uuid "44616f16-0028-4fe8-81ee-4a1e3aee8ec1")
 		)
 		(pin "3"
-			(uuid "50500ec2-18e3-47f2-897f-30a5bb19bf36")
+			(uuid "50500ec2-18e3-47f2-897f-30a5bb19bf37")
 		)
 		(pin "4"
-			(uuid "7bdc110c-cb65-4ef2-858c-7830fd387173")
+			(uuid "7bdc110c-cb65-4ef2-858c-7830fd387174")
 		)
 		(instances
 			(project ""
