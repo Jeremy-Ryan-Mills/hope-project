@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.889,
-          "width": 0.889
+          "height": 1.9,
+          "width": 1.9
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -58,9 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "footprint_type_mismatch|204530000|115240000|f8587853-a50e-4666-bab1-a5a26f0ebca5|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },

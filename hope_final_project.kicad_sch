@@ -10946,7 +10946,7 @@
 			(uuid "7bdc110c-cb65-4ef2-858c-7830fd387173")
 		)
 		(instances
-			(project ""
+			(project "hope_final_project"
 				(path "/37766153-7921-4304-952c-8cbed935bbde"
 					(reference "U11")
 					(unit 1)
@@ -11345,7 +11345,7 @@
 			(uuid "7bdc110c-cb65-4ef2-858c-7830fd387174")
 		)
 		(instances
-			(project ""
+			(project "hope_final_project"
 				(path "/37766153-7921-4304-952c-8cbed935bbde"
 					(reference "U11")
 					(unit 2)
