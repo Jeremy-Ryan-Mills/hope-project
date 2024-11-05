@@ -630,7 +630,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 19.05 6.35 180)
 					(length 2.54)
 					(name "VOUT"
@@ -648,7 +648,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 19.05 10.16 180)
 					(length 2.54)
 					(name "VOUT"
@@ -666,7 +666,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 10.16 17.78 270)
 					(length 2.54)
 					(name "VOUT"

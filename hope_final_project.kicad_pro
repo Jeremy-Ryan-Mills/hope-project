@@ -614,7 +614,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "../../../Downloads/",
+    "plot_directory": "schematic_images/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -631,7 +631,7 @@
     ],
     [
       "6e4dafa4-526e-49fd-be82-6ba98e7e167c",
-      "BLDC Motor Driver"
+      "Custom BLDC Motor Driver"
     ],
     [
       "002c9aad-894f-4a97-a943-216a1785fff6",
