@@ -4210,7 +4210,7 @@
 		(fields_autoplaced yes)
 		(uuid "750a2d9c-05a3-4ac9-bde6-723464fa56b0")
 		(property "Reference" "LS1"
-			(at 256.54 87.6299 0)
+			(at 256.54 88.2649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4218,8 +4218,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AST-03208MR-R"
-			(at 256.54 90.1699 0)
+		(property "Value" "8 Ohms"
+			(at 256.54 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
