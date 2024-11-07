@@ -2704,7 +2704,7 @@
 		)
 		(uuid "ffa3c7ae-c609-4416-a318-7c0c73b937c3")
 	)
-	(text "OPA2145 Phono-Preamp\n\n"
+	(text "OPA2134 Phono-Preamp\n\n"
 		(exclude_from_sim yes)
 		(at 80.772 49.53 0)
 		(effects

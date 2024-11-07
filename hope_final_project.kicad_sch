@@ -4961,6 +4961,10 @@
 		(uuid "940121ce-43f9-4e98-a83f-398f8c5e5c7c")
 	)
 	(no_connect
+		(at 213.36 64.77)
+		(uuid "a962f93e-349d-428c-adc3-328b9c947725")
+	)
+	(no_connect
 		(at 120.65 133.35)
 		(uuid "abbc7676-26d6-46f5-b3fd-772d6db68d04")
 	)
@@ -5229,16 +5233,6 @@
 			(type default)
 		)
 		(uuid "177ddafe-8849-48fa-aea6-ba1e85f78c5b")
-	)
-	(wire
-		(pts
-			(xy 260.35 88.9) (xy 261.62 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b6fd819-ac47-45da-9bfe-966df23d9338")
 	)
 	(wire
 		(pts
@@ -6282,6 +6276,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 88.9) (xy 261.62 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb756b85-6e23-4d15-b671-6bf9bcf8f5ac")
+	)
+	(wire
+		(pts
 			(xy 27.94 105.41) (xy 27.94 104.14)
 		)
 		(stroke
@@ -6319,6 +6323,16 @@
 			(type default)
 		)
 		(uuid "cf9d652f-fff2-486a-aee6-3521409c055f")
+	)
+	(wire
+		(pts
+			(xy 251.46 91.44) (xy 251.46 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d108b542-45ca-4d14-9cd8-3db9de49f3ee")
 	)
 	(wire
 		(pts
@@ -7072,17 +7086,6 @@
 		)
 		(uuid "8a414a20-1f5e-443e-8df0-8201629044f0")
 	)
-	(label "GPIO44"
-		(at 213.36 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8b276c92-51ab-4459-95c4-b4841692a2c7")
-	)
 	(label "GPIO43"
 		(at 213.36 62.23 0)
 		(fields_autoplaced yes)
@@ -7159,17 +7162,6 @@
 			(justify left bottom)
 		)
 		(uuid "a4ead695-d2f4-412b-b116-fb5d36f4b0bb")
-	)
-	(label "GPIO44"
-		(at 260.35 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a630f889-37ff-4d20-9203-a748ee9ce5f9")
 	)
 	(label "SCL"
 		(at 129.54 182.88 180)
@@ -10233,6 +10225,72 @@
 			(project "hope_final_project"
 				(path "/37766153-7921-4304-952c-8cbed935bbde"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 251.46 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae9fdcf4-ecd2-41b4-825e-65eec576e243")
+		(property "Reference" "#PWR022"
+			(at 251.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "415eb40a-47d7-4965-8387-f105cbcfa13f")
+		)
+		(instances
+			(project "hope_final_project"
+				(path "/37766153-7921-4304-952c-8cbed935bbde"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
