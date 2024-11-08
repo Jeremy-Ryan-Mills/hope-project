@@ -8825,7 +8825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+15V"
+		(property "Value" "+16V"
 			(at 68.58 17.78 0)
 			(effects
 				(font
@@ -11099,7 +11099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+15V"
+		(property "Value" "+16V"
 			(at 53.34 118.11 0)
 			(effects
 				(font
@@ -12497,16 +12497,6 @@
 				(justify left top)
 			)
 		)
-		(pin "V_15" output
-			(at 60.96 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "583fdda9-5446-445f-a777-bcf5d5d7351f")
-		)
 		(pin "V_in" input
 			(at 43.18 38.1 180)
 			(effects
@@ -12536,6 +12526,16 @@
 				(justify right)
 			)
 			(uuid "7d461cad-f178-40d5-a6e1-8fbe3f0cb4c7")
+		)
+		(pin "V_16" output
+			(at 60.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "58332b8e-2133-4544-a050-adfe3a88332f")
 		)
 		(instances
 			(project "hope_final_project"
