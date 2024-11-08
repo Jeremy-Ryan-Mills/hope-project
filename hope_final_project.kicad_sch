@@ -10900,7 +10900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+15V"
+		(property "Value" "+16V"
 			(at 17.78 158.75 0)
 			(effects
 				(font
@@ -11875,7 +11875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+15V"
+		(property "Value" "+16V"
 			(at 85.09 162.56 0)
 			(effects
 				(font
@@ -12291,7 +12291,7 @@
 			)
 			(uuid "748ecaa3-94b5-4288-a35e-e61369118605")
 		)
-		(pin "V_in_15" input
+		(pin "V_in_16" input
 			(at 59.69 124.46 180)
 			(effects
 				(font

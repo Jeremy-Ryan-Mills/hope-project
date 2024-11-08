@@ -2893,7 +2893,7 @@
 		)
 		(uuid "5e0e13bd-bb95-477d-85ea-a4c49b876a40")
 	)
-	(hierarchical_label "V_in_15"
+	(hierarchical_label "V_in_16"
 		(shape input)
 		(at 48.26 59.69 90)
 		(fields_autoplaced yes)
@@ -2905,7 +2905,7 @@
 		)
 		(uuid "8c4ead1c-1c57-4343-b123-5d44c45acdcf")
 	)
-	(hierarchical_label "V_in_15"
+	(hierarchical_label "V_in_16"
 		(shape input)
 		(at 80.01 91.44 90)
 		(fields_autoplaced yes)
@@ -4469,7 +4469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+15V"
+		(property "Value" "+16V"
 			(at 166.37 97.79 0)
 			(effects
 				(font
@@ -5825,7 +5825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+15V"
+		(property "Value" "+16V"
 			(at 177.8 55.88 0)
 			(effects
 				(font
