@@ -763,6 +763,10 @@
     [
       "85896c8b-3b5e-44e0-8a6e-7cbb4baf21cc",
       "Voltage Regulators"
+    ],
+    [
+      "f6b0eb8b-2bcf-4b74-883b-54cb8f70f482",
+      "ADC"
     ]
   ],
   "text_variables": {}
