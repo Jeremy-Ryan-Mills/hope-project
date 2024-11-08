@@ -151,4 +151,5 @@
   (lib (name "dk_TVS-Mixed-Technology")(type "Legacy")(uri "${KIPRJMOD}/digikey-kicad-library/digikey-symbols/dk_TVS-Mixed-Technology.lib")(options "")(descr ""))
   (lib (name "dk_USB-DVI-HDMI-Connectors")(type "Legacy")(uri "${KIPRJMOD}/digikey-kicad-library/digikey-symbols/dk_USB-DVI-HDMI-Connectors.lib")(options "")(descr ""))
   (lib (name "custom_symbols")(type "KiCad")(uri "${KIPRJMOD}/custom_symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "6130XX11121_61300511121")(type "KiCad")(uri "${KIPRJMOD}/61300511121/6130XX11121_61300511121.kicad_sym")(options "")(descr ""))
 )
