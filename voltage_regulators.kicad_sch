@@ -2326,7 +2326,7 @@
 			(uuid "267f75a2-686a-414c-89a9-1f86596969e1")
 		)
 		(instances
-			(project ""
+			(project "hope_final_project"
 				(path "/37766153-7921-4304-952c-8cbed935bbde/85896c8b-3b5e-44e0-8a6e-7cbb4baf21cc"
 					(reference "R22")
 					(unit 1)
@@ -2529,7 +2529,7 @@
 			(uuid "6c0cf018-e5ec-4525-add8-7f16abfa1455")
 		)
 		(instances
-			(project ""
+			(project "hope_final_project"
 				(path "/37766153-7921-4304-952c-8cbed935bbde/85896c8b-3b5e-44e0-8a6e-7cbb4baf21cc"
 					(reference "U1")
 					(unit 1)
