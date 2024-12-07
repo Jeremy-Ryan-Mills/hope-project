@@ -1,0 +1,67 @@
+Todo: (Date: 12/6/24 - LJ)
+
+Ultimate Goal - Flash the board and try to get the screen I2C to work
+
+
+Side Goals - Add the D2 diode back onto the board...
+
+
+
+Problem:
+C32, C33, C34 are shorted across terminals! (5V is shorted to GND!)
+--> U6 of the 2nd board may be shorted across its fb and gnd pins! Cannot fully confirm since the hole marking orientation has melted. 
+--> Going to reuse the U6 of the first board and put it into the 2nd board in hopes that it is working and will fix the second board
+--> The U6 of the first board came off but a piece of its black plastic housing broke off at the BST pin. However, when checking continuity across its pins there is no short (yay!). Now going to try to put on 2nd board
+--> 10:46 pm, 12/6/24 the short between 5V and GND is good, now going to do a continuity check across all the board before powering. Using the, now chipped, U6 and it may be okay!
+--> Sad, 11:59pm, put 19V into the barrel jack. 16V and 3.3V rails are fine but the 5V rail is 16V NOT 5V. Leading suspect. 5V buck regulator is busted. It's GND and 5V output pin are now shorted (GND and FB pins) 
+
+
+[FIXED] - NET-(D3-A) of USB C receptacle is shorted to GND of the Newest Board!
+
+16V rail is SHORTED to GND of the old board!!!!!
+
+Notes:
+D+/D-, B5/A5 pins are good on the USB C board
+C21, R13, C26, R16, C30, R19 motor things shorted but that is okay for the motor controller. PGND and GND are the same in our situation 
+
+L1 - Net-(U3-SW) is shorted to 3.3V  AND 
+L2,  Net-(U6-SW) to 5V are shorted which is fine because inductors allow current across itself!
+
+Conclusion:
+When running 19V to the barrel jack at current limit 1A the ___ measure at (relative to GND). Using board 2 the FB pin is not soldered to its pad!!! If it was then the 5V rail will short with the GND rail because the FB pin and GND pin (of the 5V buck regulator is shorted)!:
+
+
+Rails:
+16V rail  - 
+5V rail   -
+3.3V rail -
+
+5V Buck Regulator:
+GND - 
+SW  -
+BST -
+VIN - 
+EN  -
+FB  -
+
+Didn't try the above:
+May instead try to replace the two fried buck regulators with this one I got from supernode:
+https://www.digikey.com/en/products/detail/texas-instruments/LM2734XMK-NOPB/723201
+
+LM2734XMK-NOPB
+
+...
+
+ACTUALLY maybe use this one from CalSol instead!
+
+LT1761ES5-5-TRMPBF
+https://www.digikey.com/en/products/detail/analog-devices-inc/LT1761ES5-5-TRMPBF/962350
+
+
+#########################
+
+Definitions:
+AP63205 - 5V buck regulator (that continues to break!)
+New board - w/o D2 diode
+
+Old board -w/both D2/D3 diodes!

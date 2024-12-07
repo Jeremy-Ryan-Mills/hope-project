@@ -21,13 +21,14 @@
 					(justify right bottom)
 				)
 			)
-			(property "Value" "6130XX11121_61300411121"
-				(at -7.62 -5.08 0)
+			(property "Value" "61300411121"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right bottom)
+					(justify bottom)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "6130XX11121_61300411121:61300411121"
@@ -89,16 +90,6 @@
 				)
 			)
 			(property "IR" "3A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "VALUE" "61300411121"
 				(at 0 0 0)
 				(effects
 					(font
@@ -362,13 +353,14 @@
 					(justify right bottom)
 				)
 			)
-			(property "Value" "6130XX11121_61300411121"
-				(at -7.62 -5.08 0)
+			(property "Value" "61300411121"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right bottom)
+					(justify bottom)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "6130XX11121_61300411121:61300411121"
@@ -430,16 +422,6 @@
 				)
 			)
 			(property "IR" "3A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "VALUE" "61300411121"
 				(at 0 0 0)
 				(effects
 					(font
@@ -703,13 +685,14 @@
 					(justify right bottom)
 				)
 			)
-			(property "Value" "6130XX11121_61300511121"
-				(at -7.62 -5.08 0)
+			(property "Value" "61300511121"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right bottom)
+					(justify bottom)
+					(hide yes)
 				)
 			)
 			(property "Footprint" "6130XX11121_61300511121:61300511121"
@@ -771,16 +754,6 @@
 				)
 			)
 			(property "IR" "3A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "VALUE" "61300511121"
 				(at 0 0 0)
 				(effects
 					(font

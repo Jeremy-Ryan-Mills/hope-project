@@ -5,4 +5,5 @@
   (lib (name "61300411121")(type "KiCad")(uri "${KIPRJMOD}/61300411121")(options "")(descr ""))
   (lib (name "61300511121")(type "KiCad")(uri "${KIPRJMOD}/61300511121")(options "")(descr ""))
   (lib (name "PCM1808PWR")(type "KiCad")(uri "${KIPRJMOD}/PCM1808PWR")(options "")(descr ""))
+  (lib (name "LT1761ES5_5_TRMPBF")(type "KiCad")(uri "${KIPRJMOD}/LT1761ES5_5_TRMPBF")(options "")(descr ""))
 )
